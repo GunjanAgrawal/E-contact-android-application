@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+   <EditText
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:hint="Name"
+       android:id="@+id/et1"
+       android:layout_gravity="center_horizontal"
+       android:layout_marginTop="40dp"/>
+
+   <EditText
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:hint="Phone Number"
+       android:id="@+id/et2"
+       android:inputType="number"
+       android:layout_gravity="center_horizontal"
+       android:layout_marginTop="40dp"/>
+
+   <Button
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:layout_gravity="center_horizontal"
+       android:layout_marginTop="40dp"
+       android:text="Login"
+       android:id="@+id/bt1"/>
+
+
+   <TextView
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:layout_gravity="center_horizontal"
+       android:text="New user ? Register"
+       android:layout_marginTop="40dp"
+       android:textSize="25dp"
+       android:id="@+id/tv1"
+       android:clickable="true"/>
+
+</LinearLayout>

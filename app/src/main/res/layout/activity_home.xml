@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="20dp"
+    tools:context="com.example.lenovo.e_contact.HomeActivity">
+
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/ambulance_button"
+            android:src="@drawable/ambulance_launcher"
+
+            android:layout_alignParentTop="true"
+            android:layout_toLeftOf="@+id/firestation_button"
+            android:layout_toStartOf="@+id/firestation_button"
+            android:layout_marginRight="25dp"
+            android:layout_marginEnd="25dp"
+            android:layout_marginTop="13dp" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ambulance"
+        android:textColor="#000000"
+        android:id="@+id/textView"
+        android:layout_below="@+id/ambulance_button"
+        android:layout_alignRight="@+id/ambulance_button"
+        android:layout_alignEnd="@+id/ambulance_button"
+        android:layout_marginRight="13dp"
+        android:layout_marginEnd="13dp" />
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/police_button"
+        android:src="@drawable/pol_launcher"
+
+        android:layout_marginTop="15dp"
+        android:layout_below="@+id/textView3"
+        android:layout_alignRight="@+id/ambulance_button"
+        android:layout_alignEnd="@+id/ambulance_button" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Police"
+        android:textColor="#000000"
+        android:id="@+id/textView2"
+        android:layout_below="@+id/police_button"
+        android:layout_alignLeft="@+id/textView"
+        android:layout_alignStart="@+id/textView" />
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/firestation_button"
+        android:src="@drawable/fire"
+
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginRight="56dp"
+        android:layout_marginEnd="56dp"
+        android:layout_alignBottom="@+id/ambulance_button"
+        android:layout_alignParentTop="true" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="FireStation"
+        android:textColor="#000000"
+        android:id="@+id/textView3"
+        android:layout_marginRight="19dp"
+        android:layout_marginEnd="19dp"
+        android:layout_below="@+id/textView"
+        android:layout_alignRight="@+id/firestation_button"
+        android:layout_alignEnd="@+id/firestation_button" />
+
+
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/bloodbank_button"
+        android:src="@drawable/images"
+
+        android:layout_alignTop="@+id/police_button"
+        android:layout_toRightOf="@+id/ambulance_button"
+        android:layout_toEndOf="@+id/ambulance_button"
+        android:layout_marginLeft="20dp"
+        android:layout_marginStart="20dp" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="BloodBank"
+        android:textColor="#000000"
+        android:layout_below="@+id/police_button"
+        android:layout_alignRight="@+id/textView3"
+        android:layout_alignEnd="@+id/textView3"
+        android:id="@+id/textView5" />
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/emergency_button"
+        android:src="@drawable/help"
+
+        android:layout_marginTop="32dp"
+        android:layout_below="@+id/textView2"
+        android:layout_alignRight="@+id/textView"
+        android:layout_alignEnd="@+id/textView" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Emergency Contact"
+        android:textColor="#000000"
+        android:layout_marginTop="18dp"
+        android:layout_below="@+id/emergency_button"
+        android:layout_alignLeft="@+id/police_button"
+        android:layout_alignStart="@+id/police_button"
+        android:id="@+id/textView4" />
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/Location_button"
+
+        android:src="@drawable/location"
+
+        android:layout_alignBottom="@+id/textView4"
+        android:layout_alignLeft="@+id/bloodbank_button"
+        android:layout_alignStart="@+id/bloodbank_button" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Current Location"
+        android:textColor="#000000"
+        android:layout_below="@+id/Location_button"
+        android:layout_alignRight="@+id/bloodbank_button"
+        android:layout_alignEnd="@+id/bloodbank_button" />
+
+</RelativeLayout>

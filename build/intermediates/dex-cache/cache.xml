@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="C:\Users\lenovo\.android\build-cache\6f9309ad692fb8cae3934bf68a4ac9daebff5e6c\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="27.0.3"
+        sha1="364364bf77b4a71afc5930fc3ae57b3f0eea637c">
+        <dex dex="C:\Users\lenovo\AndroidStudioProjects\E_Contact\app\build\intermediates\pre-dexed\debug\classes_4d038bb7ecf74e07ddf30cbdf9c1c5baf14af828.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\lenovo\.android\build-cache\a71c25539084bfd445cd928ab2dc46e41acf8ca5\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="27.0.3"
+        sha1="2430e711762a749feb00b3d64858ca4768251b9d">
+        <dex dex="C:\Users\lenovo\AndroidStudioProjects\E_Contact\app\build\intermediates\pre-dexed\debug\classes_32f9970a6cd9ae2f37f4a336f76d0373dd77b6e2.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\lenovo\.android\build-cache\713f50a95618832f20b9f99070c1cf4bf4133170\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="27.0.3"
+        sha1="fcae52a60bc07924d370b4d376116cd8f8581f54">
+        <dex dex="C:\Users\lenovo\AndroidStudioProjects\E_Contact\app\build\intermediates\pre-dexed\debug\classes_6bc16c59cbe5321d27f154b2acac19e3e869daed.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\lenovo\.android\build-cache\fe2bde9088cce54c9b2f50ded046b23aea0f03aa\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="27.0.3"
+        sha1="70ffe00aaf049893f59d1dad57bd82992faa38ef">
+        <dex dex="C:\Users\lenovo\AndroidStudioProjects\E_Contact\app\build\intermediates\pre-dexed\debug\classes_d8b05a59aad1b3b5221af498a5fa6482d58b6546.jar" />
+    </item>
+
+</items>
